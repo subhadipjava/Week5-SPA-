@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive Single Page Application built using HTML, CSS and JavaScript.">
+    <title>Nova | Single Page Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo">NOVA<span>.</span></a>
+
+            <button id="menuBtn" class="menu-btn"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app" tabindex="-1">
+        <section class="hero">
+            <p class="eyebrow">SINGLE PAGE APPLICATION</p>
+            <h1>One page.<br><span>Many possibilities.</span></h1>
+            <p class="hero-text">
+                Explore a modern web experience powered by HTML, CSS and JavaScript.
+                Navigate between pages without reloading the entire website.
+            </p>
+            <a href="#about" class="primary-btn">Explore More →</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Nova SPA. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
